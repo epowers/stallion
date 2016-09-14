@@ -30,7 +30,7 @@ from stallion import metadata
 
 app = Flask(__name__)
 
-PYPI_XMLRPC = 'http://pypi.python.org/pypi'
+PYPI_XMLRPC = 'https://pypi.python.org/pypi'
 
 # This is a cache with flags to show if a distribution
 # has an update available
