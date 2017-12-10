@@ -22,7 +22,7 @@ import logging
 try:
     import xmlrpclib
 except ImportError:
-    import xmlrpc.client
+    import xmlrpc.client as xmlrpclib
 
 import pkg_resources as _pkg_resources
 
